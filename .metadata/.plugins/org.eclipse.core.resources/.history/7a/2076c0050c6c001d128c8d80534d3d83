@@ -1,0 +1,9 @@
+
+public class Cconcatenate {
+public static void main(String[] args) {
+	String s = "Tops ";
+	String s1= "Technologies";
+	
+	System.out.println(s.concat(s1));
+}
+}

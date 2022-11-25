@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Ascii_Value {
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.print("Enter a Character : ");
+	char ascii = sc.hashCode();
+	
+	System.out.print("ASCII value of a given character : "+ascii);	
+}
+}

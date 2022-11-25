@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Integer_count_Number_Digit {
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("Enter a Any number : ");
+	long a = sc.nextLong();
+	int count = 0;
+	
+	
+}
+}
