@@ -1,0 +1,11 @@
+class Parent {
+	public void print{
+		System.out.println("This is in Parent Class.");
+	}
+}
+
+public class Inheritance {
+public static void main(String[] args) {
+	
+}
+}

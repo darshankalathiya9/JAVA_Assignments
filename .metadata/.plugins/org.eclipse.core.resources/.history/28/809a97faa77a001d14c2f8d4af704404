@@ -1,0 +1,9 @@
+class Print_Area {
+
+}
+
+public class Area_Polymorphisam {
+	public static void main(String[] args) {
+
+	}
+}

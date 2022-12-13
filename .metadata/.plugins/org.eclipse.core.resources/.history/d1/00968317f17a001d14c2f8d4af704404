@@ -1,0 +1,13 @@
+
+public class Printn_Polymorphisam {
+	
+	public class PrintNumber {
+		public int print(int a) {
+			System.out.println(a);
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

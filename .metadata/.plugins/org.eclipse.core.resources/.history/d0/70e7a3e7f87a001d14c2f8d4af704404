@@ -1,0 +1,13 @@
+class Member{
+	String Name;
+	int Age;
+	long Phonenumber;
+	String Address;
+	int Salary;
+}
+
+public class Members {
+public static void main(String[] args) {
+	
+}
+}

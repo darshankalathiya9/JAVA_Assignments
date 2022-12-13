@@ -1,0 +1,16 @@
+class Print_Area {
+	public void area(float length, float width) {
+		float Area = length*width;
+		System.out.println("Area of Rectangle : "+Area);
+	}
+	public void area(float side) {
+		float area = side*side;
+		System.out.println("Area of Square : "+area);
+	}
+}
+
+public class Area_Polymorphisam {
+	public static void main(String[] args) {
+		Area_Polymorphisam AP = new Area_Polymorphisam;
+	}
+}

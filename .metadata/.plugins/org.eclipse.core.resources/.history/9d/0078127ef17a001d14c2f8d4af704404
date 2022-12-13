@@ -1,0 +1,24 @@
+class PrintNumber {
+	public void print(int a) {
+		System.out.println(a);
+	}
+	
+	public void print(float b) {
+		System.out.println(b);
+	}
+	
+	public void print(double c) {
+		System.out.println(c);
+	}
+	
+	public void print(String d) {
+		System.out.println(d);
+	}
+}
+
+public class Printn_Polymorphisam {
+
+	public static void main(String[] args) {
+
+	}
+}

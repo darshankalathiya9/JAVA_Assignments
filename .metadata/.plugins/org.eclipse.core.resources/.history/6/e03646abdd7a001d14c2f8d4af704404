@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Secondmost_Character {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter a String To Find the Second Most Frequent Character. : ");
+		String str = sc.next();
+
+		final int Noofchars = 256;
+		int[] a = new int[Noofchars];
+		int 
+		
+		for (int i = 0; i < str.length(); i++) {
+			(a (str.charAt(i))) ++ ;
+		}
+		
+		int first = 0, second = 0; 
+		
+		System.out.print("You Enter a String : " + str);
+		System.out.print("Second Most Frequent Character : " + second);
+	}
+}

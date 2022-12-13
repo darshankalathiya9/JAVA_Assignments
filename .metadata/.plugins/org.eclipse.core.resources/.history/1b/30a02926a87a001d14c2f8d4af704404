@@ -1,0 +1,11 @@
+class Print_Area {
+	public void area(int length, int width) {
+		System.out.println("Area of Rectangle : "+area);
+	}
+}
+
+public class Area_Polymorphisam {
+	public static void main(String[] args) {
+
+	}
+}

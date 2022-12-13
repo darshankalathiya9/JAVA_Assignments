@@ -1,0 +1,32 @@
+class PrintNumber {
+	public void print(int a) {
+		System.out.println(a);
+	}
+	
+	public void print(float b) {
+		System.out.println(b);
+	}
+	
+	public void print(double c) {
+		System.out.println(c);
+	}
+	
+	public void print(long d) {
+		System.out.println(d);
+	}
+	
+	public void print(String e) {
+		System.out.println(e);
+	}
+}
+
+public class Printn_Polymorphisam {
+
+	public static void main(String[] args) {
+		PrintNumber obj = new PrintNumber();
+		obj.print(9);
+		obj.print(9.99f);
+		obj.print(99.99);
+		obj.print("DK");
+	}
+}

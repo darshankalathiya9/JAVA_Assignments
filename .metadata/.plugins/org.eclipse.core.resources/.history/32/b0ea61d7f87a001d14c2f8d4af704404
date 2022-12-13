@@ -1,0 +1,12 @@
+class Member{
+	String Name;
+	int Age;
+	long Phonenumber;
+	String Address;
+}
+
+public class Members {
+public static void main(String[] args) {
+	
+}
+}

@@ -1,0 +1,17 @@
+class Member{
+	String Name;
+	int Age;
+	long Phonenumber;
+	String Address;
+	int Salary;
+	
+	public void printsalary() {
+		System.out.println(salary);
+	}
+}
+
+public class Members {
+public static void main(String[] args) {
+	
+}
+}
