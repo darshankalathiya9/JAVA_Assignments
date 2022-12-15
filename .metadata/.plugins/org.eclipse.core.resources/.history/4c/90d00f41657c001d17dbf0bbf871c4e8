@@ -1,0 +1,8 @@
+abstract class Parent{
+	public abstract void message();
+}
+public class Abstract_Parent {
+public static void main(String[] args) {
+	
+}
+}

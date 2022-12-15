@@ -1,0 +1,12 @@
+abstract class Parent1 {
+	public abstract void message();
+}
+abstract class subclass1 extends Parent1{
+	
+}
+
+public class Abstract_Parent {
+	public static void main(String[] args) {
+
+	}
+}

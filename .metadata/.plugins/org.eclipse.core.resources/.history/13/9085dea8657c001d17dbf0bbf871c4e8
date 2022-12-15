@@ -1,0 +1,19 @@
+abstract class Parent1 {
+	public abstract void message();
+}
+
+class subclass1 extends Parent1{
+
+	@Override
+	public void message() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+public class Abstract_Parent {
+	public static void main(String[] args) {
+
+	}
+}
