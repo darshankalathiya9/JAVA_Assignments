@@ -1,0 +1,9 @@
+class Triangle{
+	public void area(int a, int b, int c);
+	
+}
+public class Triangle {
+public static void main(String[] args) {
+	
+}
+}

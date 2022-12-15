@@ -1,0 +1,19 @@
+class Rectangle{
+	int length,breadth;
+	
+	public Rectangle(int l, int b) {
+		length = l;
+		breadth = b;
+	}
+	
+	public void printArea() {
+		int area = length*breadth;
+		System.out.println("Area of Rectangle : "+area+" ");
+	}
+}
+
+public class Area_Perimeter {
+public static void main(String[] args) {
+	
+}
+}

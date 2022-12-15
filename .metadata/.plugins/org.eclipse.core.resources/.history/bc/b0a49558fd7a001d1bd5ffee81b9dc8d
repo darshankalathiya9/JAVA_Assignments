@@ -1,0 +1,11 @@
+class Rectangle{
+	int length,breadth;
+	
+	public Rectangle
+}
+
+public class Area_Perimeter {
+public static void main(String[] args) {
+	
+}
+}

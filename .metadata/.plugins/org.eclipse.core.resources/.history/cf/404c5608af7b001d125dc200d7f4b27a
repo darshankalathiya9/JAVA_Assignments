@@ -1,0 +1,34 @@
+class Rectangle {
+	int length, breadth;
+
+	public Rectangle(int l, int b) {
+		length = l;
+		breadth = b;
+	}
+
+	public void printArea() {
+		int area = length * breadth;
+		System.out.println("Area of Rectangle : " + area + " ");
+	}
+
+	public void printPerimeter() {
+		int perimeter = 2*(length+breadth);
+		System.out.println("Perimeter of Rectangle : "+perimeter+");
+	}
+}
+
+class Square extends Rectangle {
+
+	public Suqare (int s)
+	{
+		super(s,s);
+	}
+}
+
+public class Area_Perimeter {
+	public static void main(String[] args) {
+
+		Rectangle R = new Rectangle(4,5);
+		Square s = new Square(4); 
+	}
+}
