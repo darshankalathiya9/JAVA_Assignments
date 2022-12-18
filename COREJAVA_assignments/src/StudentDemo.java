@@ -5,13 +5,13 @@ import java.io.InputStreamReader;
 class AgeNotWithinRangeException extends Exception {
 	@Override
 	public String toString() {
-		return ("Age is Not Between 15 and 21.... Please Re-Enter the Age.");
+		return ("\nAge is Not Between 15 and 21.... Please Re-Enter the Age.\n");
 	}
 }
 
 class NameNotValidException extends Exception {
 	public String Validname() {
-		return ("Name is not Valid.... Please Re-Enter The Name.");
+		return ("\nName is not Valid.... Please Re-Enter The Name.\n");
 
 	}
 }
@@ -27,15 +27,15 @@ class Student {
 		course = null;
 	}
 
-	Student(int a, String b, int c, String d) {
-		roll_no = a;
-		course = d;
+	Student(int r, String n, int a, String c) {
+		roll_no = r;
+		course = c;
 		int l, temp = 0;
-		l = b.length();
+		l = n.length();
 
 		for (int i = 0; i < l; i++) {
 			char ch;
-			ch = b.charAt(i);
+			ch = n.charAt(i);
 			if (ch < 'A' || ch > 'Z' && ch < 'a' || ch > 'z') {
 				temp = 1;
 			}
@@ -45,7 +45,7 @@ class Student {
 			if (temp == 1) {
 				throw new NameNotValidException();
 			} else {
-				name = b;
+				name = n;
 			}
 		} catch (NameNotValidException e) {
 			System.out.println(e);
